@@ -60,6 +60,12 @@ public class Operations {
 	}
 
 	public void square() {
-
+ 
+		int num=23;
+		int square=num*num;
+		System.out.println("square of"+num+ "is: " +square);
+		
+		
+		
 	}
 }
