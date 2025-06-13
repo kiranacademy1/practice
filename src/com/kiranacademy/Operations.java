@@ -59,7 +59,9 @@ public class Operations {
 	}
 
 	public void cubeRoot() {
-
+		 int num = 7;
+		 int ans = num*num*num;
+		 System.out.println("Cube root is:"+ans);	
 	}
 
 	public void absolute() {
