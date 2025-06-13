@@ -2,55 +2,15 @@ package com.kiranacademy;
 
 public class Operations {
 
-	public void add() {
-
+	public int absolute(int a, int b) {
+		return Math.abs(a - b);
 	}
 
-	public void subtract() {
+	public static void main(String[] args) {
+		Operations op = new Operations();
 
+		int result = op.absolute(-15, 7);
+		System.out.println("Absolute differece:" + result);
 	}
 
-	public void multiply() {
-
-	}
-
-	public void divide() {
-
-	}
-
-	public void modulus() {
-
-	}
-
-	public void exponent() {
-
-	}
-
-	public void factorial() {
-
-	}
-
-	public void squareRoot() {
-
-	}
-
-	public void cubeRoot() {
-
-	}
-
-	public void absolute() {
-
-	}
-
-	public void logarithm() {
-
-	}
-
-	public void average() {
-
-	}
-
-	public void square() {
-
-	}
 }
