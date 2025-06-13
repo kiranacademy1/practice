@@ -10,7 +10,9 @@ public class Operations {
 
 	}
 
-	public void multiply() {
+	public void multiply(int num1, int num2) {
+		int multiplication = num1*num2;
+		System.out.println("Multiplication of "+ num1 + " and "+ num2 + "= "+ multiplication);
 
 	}
 
