@@ -23,7 +23,9 @@ public class Operations {
 	}
 
 	public void exponent() {
-
+		double result = Math.pow(2, 3);
+		System.out.println(result);
+		
 	}
 
 	public void factorial() {
