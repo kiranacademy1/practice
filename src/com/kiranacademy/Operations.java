@@ -16,6 +16,11 @@ public class Operations {
 
 	public void subtract() {
 
+		int a=30;
+		int b=20;
+		int sub=a-b;
+		System.out.println("substraction="+sub);
+
 	}
 
 	public void multiply() {
@@ -65,6 +70,12 @@ public class Operations {
 	}
 
 	public void square() {
-
+ 
+		int num=23;
+		int square=num*num;
+		System.out.println("square of"+num+ "is: " +square);
+		
+		
+		
 	}
 }
