@@ -2,6 +2,10 @@ package com.kiranacademy;
 
 public class Operations {
 
+	public Operations() {
+
+	}
+
 	public void add() {
 
 		int a=10;
@@ -23,6 +27,12 @@ public class Operations {
 	}
 
 	public void modulus() {
+		int a = 1234;
+		int b = 10;
+		
+		int result = 1234 % 10;
+		
+		System.out.println("Remainder of " +a+ " divided by" +b+ "is:" +result);
 
 	}
 
