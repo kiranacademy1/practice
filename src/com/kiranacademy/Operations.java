@@ -67,7 +67,20 @@ public class Operations {
 	}
 
 	public void logarithm() {
-		 
+		double number = 100; // You can change this value
+
+        if (number <= 0) {
+            System.out.println("Logarithm is undefined for zero or negative numbers.");
+        } else {
+            double naturalLog = Math.log(number);
+            double logBase10 = Math.log10(number);
+            double logBase2 = Math.log(number) / Math.log(2);
+
+            System.out.println("Number: " + number);
+            System.out.println("Natural Log (ln): " + naturalLog);
+            System.out.println("Log base 10 (log10): " + logBase10);
+            System.out.println("Log base 2 (log2): " + logBase2);
+        }
 	}
 
 	public void average() {
