@@ -47,9 +47,19 @@ public class Operations {
 	}
 
 	public void average() {
+	// Test from Varsha	    
+		        double[] numbers = {10.5, 20.0, 30.5, 40.0, 50.5};
 
-	}
+		        double sum = 0;
+		        for (double num : numbers) {
+		            sum += num;
+		        }
 
+		        double average = sum / numbers.length;
+
+		        System.out.println("The average is: " + average);
+		    
+		}
 	public void square() {
 
 	}
