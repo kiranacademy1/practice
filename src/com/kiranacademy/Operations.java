@@ -67,7 +67,7 @@ public class Operations {
 	}
 
 	public void logarithm() {
-
+		 
 	}
 
 	public void average() {
